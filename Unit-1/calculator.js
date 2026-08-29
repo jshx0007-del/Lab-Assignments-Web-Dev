@@ -25,6 +25,8 @@ if (operation === "add") {
         console.log("Error: Cannot divide by zero")
     }
     result = num1 / num2
+} else if (operation === "power") {
+    result = Math.pow(num1, num2)
 } else {
     console.log("Error: Invalid opertion!")
     process.exit(1)
