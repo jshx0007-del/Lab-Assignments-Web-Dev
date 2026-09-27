@@ -1,5 +1,5 @@
 const fs = require('fs')
-const filepath = 'file.js'
+const filepath = 'demo.txt'
 
 function createFile(){
     fs.writeFile(filepath, "console.log('Hello World!')", (err) => {

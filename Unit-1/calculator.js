@@ -23,6 +23,7 @@ if (operation === "add") {
 } else if (operation === "divide") {
     if (num2 === 0) {
         console.log("Error: Cannot divide by zero")
+        process.exit(1)
     }
     result = num1 / num2
 } else if (operation === "power") {
